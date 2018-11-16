@@ -8,10 +8,10 @@ main()
 {
 cout <<"enter no. of vertices SIR/MAM!";
 cin >> n;
-cout<<"sir please enter for undirected grah"<<endl;
+cout<<"enter for undirected grah"<<endl;
      cin>>x>>y;
     if(x>=n&&y>=n)
-        cout<<"sir ji please enter within range"<<endl;
+        cout<<"please enter within range"<<endl;
         else
         {
     while(x!=-1&&y!=-1)
@@ -24,7 +24,7 @@ cout<<"sir please enter for undirected grah"<<endl;
     }
 cout <<"enter initial vertex";
 cin >>v;
-cout <<"AFTER DFS ,SIR ORDER COMES -:"<<endl;
+cout <<"AFTER DFS ,ORDER COMES -:"<<endl;
 cout << v <<" ";
 visited[v]=1;
 k=1;
